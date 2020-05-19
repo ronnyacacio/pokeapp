@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import PokeballTableRow from '../components/PokeballTableRow';
 
 interface Pokemon {
-  id: string;
+  id: number;
   name: string;
   life: number;
 }

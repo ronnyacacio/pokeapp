@@ -12,13 +12,13 @@ interface Props {
 const PokedexTableRow: React.FC<Props> = ({ pokemon }) => {
   function getPokemonIdByURL(url: string) {
     const tokens = url.split('/');
-    return tokens[tokens.length - 2];
+    return Number(tokens[tokens.length - 2]);
   }
 
   const id = getPokemonIdByURL(pokemon.url);
   const imgUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
 
-  function capturePokemon(id: string, name: string) {
+  function capturePokemon(id: number, name: string) {
     let pokeball = JSON.parse(String(sessionStorage.getItem('pokeball')));
 
     if (!pokeball) pokeball = [];
