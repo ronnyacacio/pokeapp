@@ -1,44 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Pokeapp" title="#pokeapp" src=".github/pokeball.png" width="100px" />
+</h1>
 
-## Available Scripts
+<h4 align="center">
+  🔥 PokeApp
+</h4>
 
-In the project directory, you can run:
+## 💻 Projeto
 
-### `yarn start`
+App desenvolvido no minicurso de React do WTISC 2020, com a tutela do prof. [Jefferson Carvalho](https://github.com/jeffersoncarvalho), uma aplicação que consome a [PokeApi](https://pokeapi.co/) e tem o intuito de listar os pokemons e capturá-los. A implementação serviu para treinar as minhas habilidades com a linguagem TypeScript e como desenvolvedor em geral.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🎥 Pŕevia da Aplicação
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<h1 align="center">
+  <img src=".github/pokeapp.gif" />
+</h1>
 
-### `yarn test`
+## ⚡ Tecnologias
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://pt-br.reactjs.org/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [Axios](https://github.com/axios/axios)
+- [TypeScript](https://www.typescriptlang.org/)
 
-### `yarn build`
+## ⛏ Deploy
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Netlify](https://5ec422af6145845ee9c9a7f5--pokeapp-ronnyacacio.netlify.app/)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🚀 Executando na sua máquina
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+$ git clone https://github.com/jvictorfarias/pokeapp.git
+$ cd pokeapp
+$ yarn && yarn start
+```

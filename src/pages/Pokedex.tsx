@@ -10,15 +10,13 @@ interface Pokemon {
 
 interface PokeResponse {
   count: number;
-  next: string;
-  previous: string;
   results: Pokemon[];
 }
 
 const Pokedex: React.FC = () => {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
-  const [count, setCount] = useState<number>(0);
-  const [offset, setOffset] = useState<number>(
+  const [count, setCount] = useState(0);
+  const [offset, setOffset] = useState(
     Number(sessionStorage.getItem('offset'))
   );
 
@@ -83,13 +81,13 @@ const Pokedex: React.FC = () => {
           <tr>
             <th style={{ textAlign: 'center', width: '20%' }}>ID</th>
             <th>Nome</th>
-            <th colSpan="2"></th>
+            <th colSpan={2}></th>
           </tr>
         </thead>
         <tbody>{makeTable()}</tbody>
         <tfoot>
           <tr>
-            <td colSpan="4">
+            <td colSpan={4}>
               <button className="btn btn-secondary" onClick={backPage}>
                 Anterior
               </button>

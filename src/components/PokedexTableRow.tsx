@@ -30,7 +30,7 @@ const PokedexTableRow: React.FC<Props> = ({ pokemon }) => {
     for (let i = 0; i < pokeball.length; i++) {
       const element = pokeball[i];
       if (id === element.id) {
-        alert('Pokemon já capturado!');
+        alert('Esse pokemon já foi capturado!');
         return;
       }
     }
