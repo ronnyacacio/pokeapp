@@ -30,7 +30,7 @@ App desenvolvido no minicurso de React do WTISC 2020, com a tutela do prof. [Jef
 ## 🚀 Executando na sua máquina
 
 ```sh
-$ git clone https://github.com/jvictorfarias/pokeapp.git
+$ git clone https://github.com/ronnyacacio/pokeapp.git
 $ cd pokeapp
 $ yarn && yarn start
 ```
